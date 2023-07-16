@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-public enum UnicornType
+public enum CardType
 {
     INSTANT,
     UPGRADE,
@@ -16,12 +16,19 @@ public enum UnicornType
     BABY,
 }
 
+public enum UnicornType
+{
+    Unicorn,
+    Narwhal,
+}
+
 
 [CreateAssetMenu(menuName = "Card")]
 public class Card : ScriptableObject
 {
+    public CardType cardType;
     public UnicornType unicornType;
     public string cardName;
-    public Image cardImage;
+    public Texture2D cardImage;
     public string description;
 }

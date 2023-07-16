@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fc92cdbc73b2cd4e80fcd094bf7c44e, type: 3}
+  m_Name: Alluring Narwhal
+  m_EditorClassIdentifier: 
+  cardType: 0
+  unicornType: 1
+  cardName: Alluring Narwhal
+  cardImage: {fileID: 2800000, guid: e2dd2fd92f263d944a22935db4782287, type: 3}
+  description: When this card enters your Stable, you may move an Upgrade card from
+    any player's Stable to your Stable.
